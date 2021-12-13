@@ -1,0 +1,18 @@
+.details-container {
+  width: auto;
+  height: auto;
+  border: 2px solid #76deff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.vechile-details-container {
+  width: auto;
+  height: auto;
+  border: 2px solid #76deff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+.table-container {
+  padding: 20px;
+}
+.pickup-container {
+  background: #d4f0ff;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+.order-container {
+  background: #d4f0ff;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+.completed-container {
+  background: #d4f0ff;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+
+.accept-button {
+  background: #4caa44;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.reject-button {
+  background: #fc2f2f;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 10px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.in-process-button {
+  background: #ff7a00;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.in-prgress-button {
+  background: #ffd600;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.completed-button {
+  background: #4caa44;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.order {
+  font-size: 13px;
+  font-weight: 200;
+}
+.status {
+  font-size: 13px;
+  font-weight: 200;
+}
