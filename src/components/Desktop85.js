@@ -3,7 +3,7 @@ import { Table, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/desktop49.css';
 
-export default class Desktop57 extends React.Component {
+export default class Desktop85 extends React.Component {
   render() {
     return (
       <>
@@ -16,6 +16,7 @@ export default class Desktop57 extends React.Component {
                   <td>
                     {' '}
                     <Button className="accept-button">Accept</Button>
+                    <Button className="reject-button">Reject</Button>
                   </td>
                 </tr>
               </thead>
@@ -42,12 +43,6 @@ export default class Desktop57 extends React.Component {
                   <th scope="row">5894715684</th>
                   <td>
                     <Button className="in-prgress-button">In Progress</Button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5894715684</th>
-                  <td>
-                    <Button className="reject-button">Reject</Button>
                   </td>
                 </tr>
               </tbody>
