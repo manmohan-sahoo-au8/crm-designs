@@ -1,15 +1,14 @@
-import React from "react";
-import { Table, Form } from "react-bootstrap";
-import "../desktop63.css";
+import React from 'react';
+import { Table, Form } from 'react-bootstrap';
 
 export default class Desktop57 extends React.Component {
   render() {
     return (
       <div>
-        <Table style={{ width: "50%" }}>
+        <Table style={{ width: '50%' }}>
           <Table>
             <thead>
-              <tr style={{ backgroundColor: "#00A3FF" }}>
+              <tr style={{ backgroundColor: '#00A3FF' }}>
                 <th>#</th>
                 <th>Services</th>
                 <th>Lorem</th>
@@ -24,7 +23,7 @@ export default class Desktop57 extends React.Component {
                   <Form.Check type="checkbox" label="1" />
                 </Form.Group>
               </td>
-              <td style={{ background: "#00A3FF2B" }}>Lorem Ipsum</td>
+              <td style={{ background: '#00A3FF2B' }}>Lorem Ipsum</td>
               <td>Lorem</td>
               <td>
                 <img src="" alt="logo" />
@@ -38,7 +37,7 @@ export default class Desktop57 extends React.Component {
                   <Form.Check type="checkbox" label="2" />
                 </Form.Group>
               </td>
-              <td style={{ background: "#00A3FF2B" }}>Lorem Ipsum</td>
+              <td style={{ background: '#00A3FF2B' }}>Lorem Ipsum</td>
               <td>Lorem</td>
               <td>
                 <img src="" alt="logo" />
@@ -52,7 +51,7 @@ export default class Desktop57 extends React.Component {
                   <Form.Check type="checkbox" label="3" />
                 </Form.Group>
               </td>
-              <td style={{ background: "#00A3FF2B" }}>Lorem Ipsum</td>
+              <td style={{ background: '#00A3FF2B' }}>Lorem Ipsum</td>
               <td>Lorem</td>
               <td>
                 <img src="" alt="logo" />
@@ -66,7 +65,7 @@ export default class Desktop57 extends React.Component {
                   <Form.Check type="checkbox" label="4" />
                 </Form.Group>
               </td>
-              <td style={{ background: "#00A3FF2B" }}>Lorem Ipsum</td>
+              <td style={{ background: '#00A3FF2B' }}>Lorem Ipsum</td>
               <td>Lorem</td>
               <td>
                 <img src="" alt="logo" />

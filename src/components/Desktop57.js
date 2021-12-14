@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
 import '../styles/desktop57.css';
 
 export default class Desktop57 extends Component {
@@ -8,7 +8,7 @@ export default class Desktop57 extends Component {
       <div className="container">
         <div className="details-container">
           <p>Personal Details:</p>
-          <p>Name:Vinod Pathak</p>
+          <p>Name:Vinod Patdak</p>
           <p>Order Id: 202010065712498</p>
           <p>Mobile : 9731942819</p>
           <p>Voucher type : Basic</p>
@@ -23,56 +23,57 @@ export default class Desktop57 extends Component {
           <p>Reg no : KA19MF0622</p>
           <p>Model : Optra</p>
         </div>
-        <div style={{ width: '100%' }}>
-          <Table style={{ columnWidth: '100px' }}>
-            <Table>
-              <thead>
-                <tr style={{ backgroundColor: '#00A3FF' }}>
-                  <th>#</th>
-                  <th>Services</th>
-                  <th>work</th>
-                  <th style={{ wordWrap: 'break-word' }}>Part/Labour</th>
-                  <th>QTY/Price $</th>
-                  <th>Discount</th>
-                  <th>Material Type</th>
-                  <th>Depreciation</th>
-                  <th>Salvage</th>
-                  <th>Insurance Payable</th>
-                  <th>Customer Payable</th>
-                  <th>HSN/SAC</th>
-                  <th>Tax%</th>
-                  <th>Tax$</th>
-                  <th>Total</th>
-                </tr>
-              </thead>
-            </Table>
-            <Table>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td style={{ backgroundColor: '#00A3FF2B' }}>
-                    Cabin Filter / AC Filter
-                  </td>
-                  <td>Cleaned</td>
-                  <td>Labour</td>
-                  <td>--/2000</td>
-                  <td>0</td>
-                  <td>Lorem</td>
-                  <td>50%</td>
-                  <td>0%</td>
-                  <td>1092.50</td>
-                  <td>1207.50</td>
-                  <td>87089524</td>
-                  <td>28%</td>
-                  <td>644.00</td>
-                  <td>2944.00</td>
-                </tr>
-              </tbody>
-            </Table>
-            <Table>
+        <div className="garage-details-container">
+          <p>Garage Booking Details:</p>
+          <i class="fas fa-warehouse">Workshop</i>
+          <i class="far fa-calendar-alt">Pickup Date</i>
+          <i class="far fa-clock">Pickup Time</i>
+        </div>
+        <div className="button-div">
+          <Button>Estimation</Button>
+        </div>
+        <div>
+          <table className="table-div-container">
+            <table className="table-details-container">
+              <tr className="table-header">
+                <td>#</td>
+                <td>Services</td>
+                <td>work</td>
+                <td>Part/Labour</td>
+                <td>QTY/Price $</td>
+                <td>Discount</td>
+                <td>Material Type</td>
+                <td>Depreciation</td>
+                <td>Salvage</td>
+                <td>Insurance Payable</td>
+                <td>Customer Payable</td>
+                <td>HSN/SAC</td>
+                <td>Tax%</td>
+                <td>Tax$</td>
+                <td>Total</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Cabin Filter / AC Filter</td>
+                <td>Cleaned</td>
+                <td>Labour</td>
+                <td>--/2000</td>
+                <td>0</td>
+                <td>Lorem</td>
+                <td>50%</td>
+                <td>0%</td>
+                <td>1092.50</td>
+                <td>1207.50</td>
+                <td>87089524</td>
+                <td>28%</td>
+                <td>644.00</td>
+                <td>2944.00</td>
+              </tr>
+
               <tr>
                 <td>2</td>
-                <td style={{ backgroundColor: '#00A3FF2B' }}>Interior</td>
+                <td>Interior</td>
                 <td>Cleaned</td>
                 <td>Labour</td>
                 <td>--/800</td>
@@ -87,11 +88,10 @@ export default class Desktop57 extends Component {
                 <td>644.00</td>
                 <td>2944.00</td>
               </tr>
-            </Table>
-            <Table>
+
               <tr>
                 <td>3</td>
-                <td style={{ backgroundColor: '#00A3FF2B' }}>Brake Fluid</td>
+                <td>Brake Fluid</td>
                 <td>Top-up</td>
                 <td>Labour</td>
                 <td>--/248 </td>
@@ -106,11 +106,10 @@ export default class Desktop57 extends Component {
                 <td>644.00</td>
                 <td>2944.00</td>
               </tr>
-            </Table>
-            <Table>
+
               <tr>
                 <td>4</td>
-                <td style={{ backgroundColor: '#00A3FF2B' }}>Coolant</td>
+                <td>Coolant</td>
                 <td>Top-up</td>
                 <td>Labour</td>
                 <td>--/2000</td>
@@ -125,8 +124,44 @@ export default class Desktop57 extends Component {
                 <td>644.00</td>
                 <td>2944.00</td>
               </tr>
-            </Table>
-          </Table>
+            </table>
+            <div className="container">
+              <div className="row">
+                <div className="col">
+                  <h4>REMARKS</h4>
+                  <p>Customer Remarks lorem ipsum</p>
+                </div>
+                <div className="col">
+                  <table className="amount-container">
+                    <tr>
+                      <td>Gross Amount</td>
+                      <td>5737.0</td>
+                    </tr>
+                    <tr>
+                      <td>Discount</td>
+                      <td>0.0</td>
+                    </tr>
+                    <tr>
+                      <td>Net Labour CGST</td>
+                      <td>465.87</td>
+                    </tr>
+                    <tr>
+                      <td>Net Labour SGST</td>
+                      <td>266.87</td>
+                    </tr>
+                    <tr>
+                      <td>Taxable Amount</td>
+                      <td>4265.87</td>
+                    </tr>
+                    <tr>
+                      <td>Net Price</td>
+                      <td>5197</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </table>
         </div>
       </div>
     );
