@@ -5,6 +5,8 @@ import Desktop85 from '../src/components/Desktop85';
 import Desktop7 from '../src/components/Desktop7';
 import Desktop63 from '../src/components/Desktop63';
 import Desktop10 from '../src/components/Desktop10';
+import Desktop9 from '../src/components/Desktop9';
+import Desktop8 from '../src/components/Desktop8';
 
 export default function App() {
   return (
@@ -13,8 +15,10 @@ export default function App() {
       {/* <Desktop49 /> */}
       {/* <Desktop85 /> */}
       {/* <Desktop7 /> */}
-      {/* <Desktop63 /> */}
-      <Desktop10 />
+      <Desktop63 />
+      {/* <Desktop10 /> */}
+      {/* <Desktop9 /> */}
+      {/* <Desktop8 /> */}
     </div>
   );
 }
