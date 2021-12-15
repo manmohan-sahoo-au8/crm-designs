@@ -1,0 +1,67 @@
+.pickup-container {
+  background: #d4f0ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.order-container {
+  background: #d4f0ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.completed-container {
+  background: #d4f0ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.ok-button {
+  background: #0c6066;
+  border-radius: 4px;
+  height: 29px;
+  width: 50px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.in-prgress-button {
+  background: #0c6066;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.completed-button {
+  background: #4caa44;
+  border-radius: 4px;
+  height: 29px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.order {
+  font-size: 13px;
+  font-weight: 200;
+}
+.status {
+  font-size: 13px;
+  font-weight: 200;
+}
+.workhistroy {
+  background: #f9ca06;
+  width: 123px;
+  height: 28px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+}

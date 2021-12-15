@@ -1,22 +1,21 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/desktop85.css';
+import '../styles/android44.css';
 
-export default class Desktop57 extends React.Component {
+export default class Desktop85 extends React.Component {
   render() {
     return (
       <>
         <div className="table-container">
           <div className="pickup-container">
-            <Table className="">
+            <Table className="table-container1">
               <thead>
                 <tr>
-                  <th scope="row">New Request-Pickup</th>
+                  <th scope="row">New Request</th>
                   <td>
                     {' '}
-                    <Button className="accept-button">Accept</Button>
-                    <Button className="reject-button">Reject</Button>
+                    <Button className="ok-button">Ok</Button>
                   </td>
                 </tr>
               </thead>
@@ -33,12 +32,7 @@ export default class Desktop57 extends React.Component {
                 <th scope="row">
                   <p className="status">Status</p>
                 </th>
-                <tr>
-                  <th scope="row">5894715684</th>
-                  <td>
-                    <Button className="in-process-button">In Process</Button>
-                  </td>
-                </tr>
+
                 <tr>
                   <th scope="row">5894715684</th>
                   <td>
@@ -73,6 +67,12 @@ export default class Desktop57 extends React.Component {
                 </tr>
               </tbody>
             </Table>
+          </div>
+          <div className="workhistroy">
+            <p>
+              Work history
+              <i class="fas fa-chevron-down" />
+            </p>
           </div>
         </div>
       </>

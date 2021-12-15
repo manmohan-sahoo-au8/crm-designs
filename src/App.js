@@ -7,6 +7,21 @@ import Desktop63 from '../src/components/Desktop63';
 import Desktop10 from '../src/components/Desktop10';
 import Desktop9 from '../src/components/Desktop9';
 import Desktop8 from '../src/components/Desktop8';
+import Android44 from '../src/components/Android44';
+import Android45 from '../src/components/Android45';
+import Android106 from '../src/components/Android106';
+import Android99 from '../src/components/Android99';
+import Android48 from '../src/components/Android48';
+import Android54 from '../src/components/Android54';
+import Android49 from '../src/components/Android49';
+import Android55 from '../src/components/Android55';
+import Android50 from '../src/components/Android50';
+import Android56 from '../src/components/Android56';
+import Android51 from '../src/components/Android51';
+import Android58 from '../src/components/Android58';
+import Android52 from '../src/components/Android52';
+import Android57 from '../src/components/Android57';
+import Android53 from '../src/components/Android53';
 
 export default function App() {
   return (
@@ -15,10 +30,25 @@ export default function App() {
       {/* <Desktop49 /> */}
       {/* <Desktop85 /> */}
       {/* <Desktop7 /> */}
-      <Desktop63 />
+      {/* <Desktop63 /> */}
       {/* <Desktop10 /> */}
       {/* <Desktop9 /> */}
       {/* <Desktop8 /> */}
+      {/* <Android44 /> */}
+      {/* <Android45 /> */}
+      {/* <Android106 /> */}
+      {/* <Android99 /> */}
+      {/* <Android48 /> */}
+      {/* <Android54 /> */}
+      {/* <Android49 /> */}
+      {/* <Android55 /> */}
+      {/* <Android50 /> */}
+      {/* <Android56 /> */}
+      {/* <Android51 /> */}
+      {/* <Android58 /> */}
+      {/* <Android52 /> */}
+      {/* <Android57 /> */}
+      <Android53 />
     </div>
   );
 }

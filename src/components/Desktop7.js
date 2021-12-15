@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/desktop49.css';
+import '../styles/desktop85.css';
 
 export default class Desktop57 extends React.Component {
   render() {

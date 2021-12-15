@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/desktop49.css';
+import '../styles/desktop85.css';
 
 export default class Desktop85 extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export default class Desktop85 extends React.Component {
       <>
         <div className="table-container">
           <div className="pickup-container">
-            <Table className="">
+            <Table className="table-container1">
               <thead>
                 <tr>
                   <th scope="row">New Request-Pickup</th>
