@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/android45.css';
+import '../styles/android106.css';
 
 export default class Desktop85 extends React.Component {
   render() {
@@ -28,38 +28,41 @@ export default class Desktop85 extends React.Component {
             </Table>
           </div>
         </div>
-        <p>Work Request</p>
-        <div class="container">
+        <p className="work">Work Request</p>
+        <div class="carcontainer">
           <div class="row">
-            <div class="col">
-              <i class="fas fa-car">Denting</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <h4>Denting</h4>
             </div>
-            <div class="col">
-              {' '}
-              <i class="fas fa-car">Washing & Servicing</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <h4>Wash & Detalling Services</h4>
             </div>
           </div>
           <div class="row">
-            <div class="col">
-              {' '}
-              <i class="fas fa-car">Wheel Alignment</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <h4>Wheel Alignment</h4>
             </div>
-            <div class="col">
-              {' '}
-              <i class="fas fa-car">Types & Services</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <h4>Types & Services</h4>
             </div>
           </div>
           <div class="row">
-            <div class="col">
-              {' '}
-              <i class="fas fa-car">Wheel Balancing</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <h4>Wheel Balancing</h4>
             </div>
-            <div class="col">
-              {' '}
-              <i class="fas fa-car">PMS & Check-Ups</i>
+            <div className="cardiv">
+              <i class="fas fa-car fa-3x"></i>
+              <img src="" alt="" />
+              <h4>PMS & Check-Ups</h4>
             </div>
           </div>
         </div>
+
         <Button className="in-prgress-button">Next</Button>
       </>
     );

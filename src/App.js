@@ -36,7 +36,7 @@ export default function App() {
       {/* <Desktop8 /> */}
       {/* <Android44 /> */}
       {/* <Android45 /> */}
-      {/* <Android106 /> */}
+      <Android106 />
       {/* <Android99 /> */}
       {/* <Android48 /> */}
       {/* <Android54 /> */}
@@ -48,7 +48,7 @@ export default function App() {
       {/* <Android58 /> */}
       {/* <Android52 /> */}
       {/* <Android57 /> */}
-      <Android53 />
+      {/* <Android53 /> */}
     </div>
   );
 }
