@@ -34,9 +34,9 @@ export default function App() {
       {/* <Desktop10 /> */}
       {/* <Desktop9 /> */}
       {/* <Desktop8 /> */}
-      {/* <Android44 /> */}
+      <Android44 />
       {/* <Android45 /> */}
-      <Android106 />
+      {/* <Android106 /> */}
       {/* <Android99 /> */}
       {/* <Android48 /> */}
       {/* <Android54 /> */}
