@@ -1,0 +1,76 @@
+.first_business_div {
+  margin-left: -12px;
+  margin-top: 20px;
+  width: 634px;
+  height: 64px;
+  display: flex;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.business_p_tag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-variant: small-caps;
+  color: #2c2c2c;
+}
+
+.today_p_tag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 35%;
+  color: #1c4274;
+}
+.workshop_div {
+  margin-top: 25px;
+  margin-right: 67%;
+}
+
+.second_date_tag {
+  margin-left: -12px;
+  margin-top: 10px;
+  width: 634px;
+  height: 45px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.month_button {
+  width: 81px;
+  height: 33px;
+  background: #a6efff;
+  border-radius: 10px;
+  border: none;
+}
+
+.input_tag {
+  width: 148.38px;
+  height: 33px;
+  background: #a6efff;
+  border-radius: 10px;
+  border: none;
+}
+
+.third_car_div {
+  margin-left: -12px;
+  margin-top: 10px;
+  width: 634px;
+  height: 621px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.third_car_div td:first-child {
+  background: #c2fbff;
+}
