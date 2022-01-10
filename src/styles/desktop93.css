@@ -1,0 +1,40 @@
+.jan {
+  width: 43px;
+  height: 25px;
+  left: 306px;
+  top: 312px;
+  font-size: 14px;
+  background: #a6efff;
+  border-radius: 10px;
+}
+
+.business_second_date_tag {
+  margin-left: -12px;
+  margin-top: 10px;
+  width: 634px;
+  height: 45px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.month_list_div {
+  display: flex;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.chevron_icon {
+  margin-top: 4px;
+  height: 5px;
+}
+
+.year_button {
+  width: 81px;
+  height: 33px;
+  border: none;
+  background: #a6efff;
+  border-radius: 10px;
+  color: #1c4274;
+  font-weight: 700;
+  margin-left: 20px;
+}

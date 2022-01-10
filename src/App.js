@@ -27,6 +27,7 @@ import Desktop86 from './components/franchaise/Desktop86';
 import Desktop87 from './components/franchaise/Desktop87';
 import Desktop95 from './components/franchaise/Desktop95';
 import Desktop92 from './components/franchaise/Desktop92';
+import Desktop93 from './components/franchaise/Desktop93';
 
 export default function App() {
   return (
@@ -58,7 +59,8 @@ export default function App() {
       {/* <Desktop86 /> */}
       {/* <Desktop87 /> */}
       {/* <Desktop95 /> */}
-      <Desktop92 />
+      {/* <Desktop92 /> */}
+      <Desktop93 />
     </div>
   );
 }
