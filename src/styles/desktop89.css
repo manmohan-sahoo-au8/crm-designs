@@ -1,0 +1,73 @@
+.first_business1_div {
+  margin-top: 10px;
+  display: flex;
+  margin-left: -12px;
+  width: 100%;
+  height: 55px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+.businessoverview_p_tag {
+  margin-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  font-variant: small-caps;
+  color: #2c2c2c;
+}
+
+.singleday_p_tag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2c2c2c;
+  margin-left: 100px;
+}
+
+#table_div {
+  margin-left: -20px;
+  margin-top: 12px;
+}
+
+.first_table_div {
+  width: 634px;
+  height: 705px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.first_table_div td:first-child {
+  text-align: left;
+  background: #c2fbff;
+}
+
+.second_date1_tag {
+  margin-left: 200px;
+}
+
+.second_table_div {
+  width: 460px;
+  height: 467px;
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.second_table_div tbody tr td {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.second_table_div td:first-child {
+  background: #c2fbff;
+  text-align: left;
+}
+.second_table_div td:last-child {
+  background: #dedede;
+}
