@@ -1,0 +1,58 @@
+.selectfranchise_h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-variant: small-caps;
+  color: #2c2c2c;
+}
+
+.search_input {
+  width: 237px;
+  height: 25px;
+  border: 1px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #989898;
+  padding: 5px;
+}
+
+.kol_button {
+  width: 114px;
+  height: 22px;
+  border-radius: 3px;
+  background: #c2fbff;
+  border-radius: 3px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #2c2c2c;
+}
+
+.franshise_table {
+  border: 2px solid rgba(16, 60, 63, 0.5);
+  width: 685px;
+  height: 40px;
+  text-align: left;
+}
+
+.franshise_table tbody {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2c2c2c;
+}

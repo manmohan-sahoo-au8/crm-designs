@@ -22,6 +22,10 @@ import Android58 from '../src/components/Android58';
 import Android52 from '../src/components/Android52';
 import Android57 from '../src/components/Android57';
 import Android53 from '../src/components/Android53';
+import Desktop91 from './components/franchaise/Desktop91';
+import Desktop86 from './components/franchaise/Desktop86';
+import Desktop87 from './components/franchaise/Desktop87';
+import Desktop95 from './components/franchaise/Desktop95';
 
 export default function App() {
   return (
@@ -34,7 +38,7 @@ export default function App() {
       {/* <Desktop10 /> */}
       {/* <Desktop9 /> */}
       {/* <Desktop8 /> */}
-      <Android44 />
+      {/* <Android44 /> */}
       {/* <Android45 /> */}
       {/* <Android106 /> */}
       {/* <Android99 /> */}
@@ -49,6 +53,10 @@ export default function App() {
       {/* <Android52 /> */}
       {/* <Android57 /> */}
       {/* <Android53 /> */}
+      {/* <Desktop91 /> */}
+      {/* <Desktop86 /> */}
+      {/* <Desktop87 /> */}
+      <Desktop95 />
     </div>
   );
 }

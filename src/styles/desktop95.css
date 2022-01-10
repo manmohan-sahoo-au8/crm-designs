@@ -1,0 +1,118 @@
+.dashboard_div {
+  margin-top: 25px;
+}
+
+.franchise_container {
+  width: 1190px;
+  height: 247px;
+  background: #c2fbff;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.filter_button {
+  display: block;
+  margin-right: auto;
+  width: 104px;
+  height: 40px;
+  background: #8dd7ff;
+  border-radius: 7px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#name_row {
+  margin-top: 20px;
+}
+
+#name_col {
+  border: none;
+}
+
+.submit_buton {
+  width: 131px;
+  height: 38px;
+  background: #103c3f;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-left: 83%;
+}
+
+.franchise_second_container {
+  padding: 20px;
+  margin-top: 40px;
+  width: 1190px;
+  height: auto;
+  background: #c2fbff;
+  border-radius: 8px;
+}
+
+.create_button {
+  width: 149px;
+  height: 42px;
+  background: #103c3f;
+  box-shadow: 0px 3px 6px #2a6f94;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+  margin-left: 81%;
+}
+
+.franchise_p_tag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  font-variant: small-caps;
+  color: #103c3f;
+  text-align: left;
+}
+
+.table_thead {
+  margin-left: -80px;
+}
+
+#edit_icon {
+  width: 84px;
+  height: 22px;
+  background: #bcbbbb;
+  font-style: normal;
+  border-radius: 4px;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #515151;
+}
+#delete_icon {
+  width: 84px;
+  height: 22px;
+  background: #fc2f2f;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #f7f8f9;
+}

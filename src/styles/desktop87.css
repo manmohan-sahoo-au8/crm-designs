@@ -1,0 +1,82 @@
+#monitorcard {
+  width: 218px;
+  height: 130px;
+  background: #fffae8;
+  border: 3px solid #103c3f;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.dashboard_div {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.wsphoto_div {
+  margin-top: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.workshopview_pverview {
+  margin-left: -12px;
+  width: 1131px;
+  height: 651px;
+  left: 260px;
+  top: 240px;
+  background: #c2fbff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.workshop_p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+  font-variant: small-caps;
+
+  color: #2c2c2c;
+}
+
+.image_div {
+  margin-bottom: 20px;
+  margin-left: -160px;
+}
+
+.name_para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.wasphoto_div_p {
+  width: 821px;
+  height: 66px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #515151;
+  text-align: left;
+}
+
+.kyc_button {
+  width: 172px;
+  height: 22px;
+  border: none;
+  background: #bebebe;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: auto;
+}
